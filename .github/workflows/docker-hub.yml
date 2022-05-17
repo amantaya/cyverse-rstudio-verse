@@ -27,7 +27,7 @@ jobs:
           context: latest
           file: latest/Dockerfile
           push: true
-          tags: cyversevice/rstudio-verse:latest
+          tags: amantaya/rstudio-verse:latest
       -
         name: Build and Push v4.2.0
         id: docker_build_four_two_zero
