@@ -6,7 +6,7 @@ on:
   pull_request: 
     branches: main
   schedule:
-    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    # Runs "at 2:00 UTC every Sunday" (see https://crontab.guru)
     - cron: "0 2 * * 0"   
    
 jobs:
