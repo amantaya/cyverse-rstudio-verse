@@ -7,7 +7,7 @@ on:
     branches: main
   schedule:
     # Runs "at minute 55 past every hour" (see https://crontab.guru)
-    - cron: '@weekly'   
+    - cron: '00 02 * * 7'   
    
 jobs:
   main:
